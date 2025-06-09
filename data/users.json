@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "admin-uuid",
+      "email": "teste@teste.com",
+      "password": "teste123",
+      "name": "testeap",
+      "created_at": 1678886400
+    },
+    {
+      "id": "e412e74b-9fc2-4ab2-bf5f-f4de85f35a56",
+      "email": "teste@gmail.com",
+      "name": "testedoido",
+      "created_at": 1749494923.6788042,
+      "password": "$2b$12$gxE2hvInpeLkc/foG1FXQ.8lyJ28U3cnEKlVqjvcpMyLCGFMLJlKW"
+    },
+    {
+      "id": "28544c31-d9ac-4585-b2ee-3ba759ab2235",
+      "email": "shrek@gmail.com",
+      "name": "shrek terceiro",
+      "created_at": 1749495103.9474993,
+      "password": "$2b$12$uzbUs4GIqL8sYd8uWUAspeM0mYPRUnxcZMx75gdPkqsaLxxVDL1hu"
+    }
+  ]
+}
