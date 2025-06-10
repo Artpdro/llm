@@ -168,3 +168,13 @@ if st.session_state.resposta_atual:
         st.markdown("### 💡 Sugestões:")
         for s in sugestoes:
             st.markdown(f"- {s}")
+
+def logout():
+    st.session_state.clear()
+    st.switch_page(".\pages\login.py")
+
+with st.sidebar:
+    if st.button("Sair"): 
+        logout()
+
+
