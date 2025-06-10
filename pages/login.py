@@ -58,8 +58,6 @@ def show_login_form():
     with col1:
         google_button = st.button("Google", key="google_login", use_container_width=True)
     
-    with col2:
-        github_button = st.button("GitHub", key="github_login", use_container_width=True)
     
     # Processar formulário de login
     if submit_button:
@@ -88,10 +86,6 @@ def show_login_form():
         oauth_url = "http://localhost:8000/auth/google"
         st.markdown(f'<meta http-equiv="refresh" content="1;url={oauth_url}">', unsafe_allow_html=True)
         
-    if github_button:
-        st.info("Redirecionando para autenticação com GitHub...")
-        oauth_url = "http://localhost:8000/auth/github"
-        st.markdown(f'<meta http-equiv="refresh" content="1;url={oauth_url}">', unsafe_allow_html=True)
 
 # Função para exibir o formulário de registro
 def show_register_form():
@@ -170,4 +164,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
